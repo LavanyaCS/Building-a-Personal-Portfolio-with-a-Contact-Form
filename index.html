@@ -1,0 +1,108 @@
+<body>
+    <!-- Page Header -->
+    <header>
+        <h1 style="text-align: center;">Portfolio with a Contact Form</h1>
+    </header>
+    <!-- End Page Header -->
+
+    <!-- Navigation Menu -->
+    <nav role="navigation" style="text-align: center;">
+        <ul style="list-style: none; padding: 0;">
+            <li style="display: inline-block; margin: 0 15px;">
+                <a style="text-decoration: none; color: black;" href="#about">About</a>
+            </li>
+            <li style="display: inline-block; margin: 0 15px;">
+                <a style="text-decoration: none; color: black;" href="#projects">Projects</a>
+            </li>
+            <li style="display: inline-block; margin: 0 15px;">
+                <a style="text-decoration: none; color: black;" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- End Navigation Menu -->
+
+    <hr>
+
+    <!-- Portfolio Details -->
+    <main>
+        <!-- About Me Section -->
+        <section id="about">
+            <h2 style="text-transform: capitalize; text-align: center;">Professional Summary</h2>
+
+            <!-- Using <aside> for additional info -->
+            <aside>
+                <figure style="text-align: center;">
+                    <img src="images/aboutme.jpg" alt="Lavanya C S - Profile Picture" title="Lavanya C S - Profile Picture"
+                        style="width:200px;height:200px;">
+                    <figcaption style="text-align: center;display: block;margin-top:5px;">Lavanya C S</figcaption>
+                </figure>
+            </aside>
+
+            <ol style="display:grid;gap:15px;">
+                <li>Skilled in developing user-friendly and responsive web applications with <strong>expertise in
+                        front-end and back-end technologies.</strong></li>
+                <li>Proficient in <strong>creating interactive interfaces</strong>, optimizing performance, and ensuring seamless user experiences.</li>
+                <li>Passionate about building innovative solutions and staying updated with the latest web technologies.</li>
+            </ol>
+        </section>
+        <!-- End About Me Section -->
+
+        <hr>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2 style="text-transform: capitalize; text-align: center;">My Projects</h2>
+            
+            <article>
+                <h3>Citaara</h3>
+                <p><strong>Description:</strong> An e-commerce platform designed to provide a seamless shopping experience.
+                    Built using <span style="font-weight: bold;">HTML5, CSS3, SCSS, Tailwind CSS, TypeScript, and Angular 17</span>, ensuring a modern and
+                    responsive user interface.</p>
+            </article>
+
+            <article>
+                <h3>Zephyrs</h3>
+                <p><strong>Description:</strong> A web application developed using <span style="font-weight: bold;">HTML5, CSS3, SCSS, Tailwind CSS, 
+                    TypeScript, and Angular 15</span>. It focuses on providing an intuitive and interactive experience for users.</p>
+            </article>
+        </section>
+        <!-- End Projects Section -->
+
+        <hr>
+
+        <!-- Contact Me Form Section -->
+        <section id="contact">
+            <h2 style="text-transform: capitalize; text-align: center;">Contact Me</h2>
+            <form method="post" action="">
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <label for="name">Name</label> <br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                    <br> <br>
+
+                    <label for="email">Email</label> <br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address..." required>
+                    <br> <br>
+
+                    <label for="subject">Subject</label> <br>
+                    <input type="text" id="subject" name="subject" placeholder="Enter subject here..." required>
+                    <br> <br>
+
+                    <label for="message">Message</label> <br>
+                    <textarea id="message" name="message" placeholder="Enter your message..." rows="5" required></textarea>
+                    <br> <br>
+
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+        <!-- End Contact Me Form Section -->
+    </main>
+    <!-- End Portfolio Details -->
+
+    <!-- Footer -->
+    <footer style="text-align: center; margin-top: 20px;">
+        <p>&copy; 2025 Lavanya C S. All rights reserved.</p>
+    </footer>
+</body>
